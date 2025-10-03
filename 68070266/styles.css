@@ -1,0 +1,26 @@
+nav {
+    font-family: fantasy;
+    background-color:rgb(245, 175, 230) ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    grid-template-columns: 50% 50%;
+}
+
+.myflex {
+    display: flex;
+    align-items: center;
+}
+
+textarea {
+    height: 314px; width: 809px;
+    margin: 5%;
+    color: blueviolet;
+}
