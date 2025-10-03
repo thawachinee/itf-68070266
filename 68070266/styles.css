@@ -19,8 +19,29 @@ body {
     align-items: center;
 }
 
+.myflex2 {
+    display: flex;
+    align-items: center;
+}
+
 textarea {
     height: 314px; width: 809px;
     margin: 5%;
     color: blueviolet;
+}
+
+.AccOverview {
+    margin: 1%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.AccInformation {
+    margin: 1%;
+    display: flex;
+    grid-template-columns: 30% 10% ;
+}
+
+.Currency {
+    margin: 2%;
 }
